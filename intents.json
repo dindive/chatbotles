@@ -1,0 +1,348 @@
+{
+  "intents": [
+    {
+      "tags": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "greetings"
+      ],
+      "response": ["Hello! Welcome to Zenith Bank. How can I assist you today?"]
+    },
+    {
+      "tags": "accountOpening",
+      "patterns": [
+        "how do I open an account",
+        "account opening process",
+        "open a new account",
+        "create an account"
+      ],
+      "response": [
+        "To open an account with Zenith Bank, please visit our website or any of our branches. You can also start the process online through our mobile app Hreres a link Http//zenithtdirect.com."
+      ]
+    },
+    {
+      "tags": "balanceCheck",
+      "patterns": [
+        "how do I check my account balance",
+        "check balance",
+        "account balance inquiry"
+      ],
+      "response": [
+        "You can check your account balance through our mobile banking app, internet banking platform, or by visiting any ATM."
+      ]
+    },
+    {
+      "tags": "transferFunds",
+      "patterns": [
+        "how do I transfer money",
+        "transfer funds",
+        "make a transfer",
+        "send money"
+      ],
+      "response": [
+        "To transfer money, you can use our mobile app, internet banking platform, or visit a nearby branch. closssesd brach is in Abraaka Police Station Busstop"
+      ]
+    },
+    {
+      "tags": "atmCardRequest",
+      "patterns": [
+        "how do I request an ATM card",
+        "request a debit card",
+        "how to get an ATM card"
+      ],
+      "response": [
+        "You can request an ATM card by visiting any Zenith Bank branch in Abraaka Police Station Busstop, or through our internet and mobile banking services."
+      ]
+    },
+    {
+      "tags": "blockCard",
+      "patterns": [
+        "how do I block my ATM card",
+        "block debit card",
+        "lost card",
+        "block my card"
+      ],
+      "response": [
+        "If your ATM card is lost or stolen, you can block it immediately through our mobile banking app or by contacting our customer service  heres a link http://zenithdirect.com/card."
+      ]
+    },
+    {
+      "tags": "loans",
+      "patterns": [
+        "how do I apply for a loan",
+        "loan application",
+        "loan options",
+        "get a loan"
+      ],
+      "response": [
+        "You can apply for a loan through our website or by visiting any Zenith Bank branch. We offer various loan options tailored to your needs."
+      ]
+    },
+    {
+      "tags": "creditCard",
+      "patterns": [
+        "how do I get a credit card",
+        "apply for a credit card",
+        "credit card options",
+        "credit card inquiry"
+      ],
+      "response": [
+        "You can apply for a Zenith Bank credit card online through our website or at any of our branches."
+      ]
+    },
+    {
+      "tags": "mobileBanking",
+      "patterns": [
+        "how do I use mobile banking",
+        "mobile banking registration",
+        "mobile banking features"
+      ],
+      "response": [
+        "To use Zenith Bank's mobile banking, download our app from the app store, and register using your account details. You can access various features such as balance inquiries, fund transfers, and bill payments."
+      ]
+    },
+    {
+      "tags": "customerSupport",
+      "patterns": [
+        "how do I contact customer support",
+        "customer service",
+        "support",
+        "contact bank"
+      ],
+      "response": [
+        "You can reach Zenith Bank's customer support via our hotline, by email, or through our online chat system on our website."
+      ]
+    },
+    {
+      "tags": "internetBanking",
+      "patterns": [
+        "how do I register for internet banking",
+        "internet banking",
+        "online banking registration"
+      ],
+      "response": [
+        "To register for internet banking, visit our website and follow the instructions on the internet banking portal or visit any branch for assistance."
+      ]
+    },
+    {
+      "tags": "billPayment",
+      "patterns": [
+        "how do I pay bills",
+        "pay utility bills",
+        "bill payment options"
+      ],
+      "response": [
+        "You can pay bills using Zenith Bank's mobile banking app, internet banking, or by visiting any of our branches."
+      ]
+    },
+    {
+      "tags": "fraudReport",
+      "patterns": [
+        "how do I report fraud",
+        "report suspicious activity",
+        "report fraud"
+      ],
+      "response": [
+        "If you suspect fraudulent activity, please report it immediately through our customer service hotline, or by visiting the nearest Zenith Bank branch."
+      ]
+    },
+    {
+      "tags": "accountClosure",
+      "patterns": [
+        "how do I close my account",
+        "close my account",
+        "terminate account",
+        "cancel account"
+      ],
+      "response": [
+        "To close your Zenith Bank account, please visit the nearest branch, or you can contact our customer service for further assistance."
+      ]
+    },
+    {
+      "tags": "accountUpgrade",
+      "patterns": [
+        "how do I upgrade my account",
+        "upgrade my account",
+        "account type change",
+        "switch to a premium account"
+      ],
+      "response": [
+        "To upgrade your account, please visit any Zenith Bank branch or call our customer service. We can assist you in switching to a premium account. I am now connecting you to a zenith bank representeative this conversation is already shared with them do no need to explain to them"
+      ]
+    },
+    {
+      "tags": "cardActivation",
+      "patterns": [
+        "how do I activate my ATM card",
+        "activate debit card",
+        "how to activate my card"
+      ],
+      "response": [
+        "You can activate your ATM card by using it at any Zenith Bank ATM or through our mobile banking app."
+      ]
+    },
+    {
+      "tags": "changePIN",
+      "patterns": [
+        "how do I change my ATM card PIN",
+        "change debit card PIN",
+        "reset ATM PIN"
+      ],
+      "response": [
+        "You can change your ATM card PIN at any Zenith Bank ATM or through our internet and mobile banking platforms."
+      ]
+    },
+    {
+      "tags": "forgotPIN",
+      "patterns": [
+        "I forgot my ATM card PIN",
+        "recover ATM PIN",
+        "forgot my card PIN"
+      ],
+      "response": [
+        "If you forgot your ATM card PIN, you can reset it by visiting any Zenith Bank ATM, branch, or contacting our customer service."
+      ]
+    },
+    {
+      "tags": "foreignExchange",
+      "patterns": [
+        "what is the current exchange rate",
+        "foreign exchange rate",
+        "currency exchange",
+        "what is the rate for dollars",
+        "FX rates"
+      ],
+      "response": [
+        "You can check the current foreign exchange rates on our website or mobile app. Rates are updated daily."
+      ]
+    },
+    {
+      "tags": "investmentOptions",
+      "patterns": [
+        "what investment options are available",
+        "investment plans",
+        "how do I invest with Zenith Bank",
+        "investment options"
+      ],
+      "response": [
+        "Zenith Bank offers a variety of investment options such as fixed deposits, mutual funds, and treasury bills. Visit our website or any branch for more information."
+      ]
+    },
+    {
+      "tags": "savingsPlan",
+      "patterns": [
+        "how do I start a savings plan",
+        "savings options",
+        "savings account plans",
+        "start saving"
+      ],
+      "response": [
+        "To start a savings plan, you can visit any Zenith Bank branch or open a savings account online through our mobile app or website."
+      ]
+    },
+    {
+      "tags": "insuranceProducts",
+      "patterns": [
+        "what insurance products do you offer",
+        "insurance options",
+        "apply for insurance"
+      ],
+      "response": [
+        "Zenith Bank offers various insurance products including health, life, and asset insurance. Visit our website or contact any branch to learn more and apply."
+      ]
+    },
+    {
+      "tags": "loanRepayment",
+      "patterns": [
+        "how do I repay my loan",
+        "loan repayment options",
+        "repay my loan",
+        "pay off loan"
+      ],
+      "response": [
+        "Loan repayments can be made through our mobile app, internet banking, or by visiting any Zenith Bank branch. You can also set up automatic repayments."
+      ]
+    },
+    {
+      "tags": "accountStatement",
+      "patterns": [
+        "how do I get my account statement",
+        "request for account statement",
+        "account statement"
+      ],
+      "response": [
+        "You can request your account statement through Zenith Bank's mobile banking app, internet banking platform, or by visiting a branch."
+      ]
+    },
+    {
+      "tags": "currencyConversion",
+      "patterns": [
+        "how do I convert currencies",
+        "currency conversion",
+        "convert dollars to naira",
+        "convert pounds to naira"
+      ],
+      "response": [
+        "Currency conversion can be done through our internet banking platform or at any Zenith Bank branch. For more details, contact our customer support."
+      ]
+    },
+    {
+      "tags": "internationalTransfer",
+      "patterns": [
+        "how do I transfer money internationally",
+        "international money transfer",
+        "send money abroad",
+        "foreign transfer"
+      ],
+      "response": [
+        "International transfers can be made via our internet banking platform or by visiting any Zenith Bank branch. You will need the recipient’s bank details and SWIFT code."
+      ]
+    },
+    {
+      "tags": "fraudPrevention",
+      "patterns": [
+        "how do I prevent fraud on my account",
+        "fraud prevention tips",
+        "how to secure my account",
+        "prevent fraud"
+      ],
+      "response": [
+        "To prevent fraud, ensure that your banking details are confidential, enable two-factor authentication, and report suspicious activity immediately to Zenith Bank’s customer service."
+      ]
+    },
+    {
+      "tags": "resetPassword",
+      "patterns": [
+        "how do I reset my internet banking password",
+        "forgot internet banking password",
+        "reset online banking password"
+      ],
+      "response": [
+        "You can reset your internet banking password by visiting the internet banking portal and following the 'forgot password' instructions or by contacting customer support for assistance."
+      ]
+    },
+    {
+      "tags": "loanEligibility",
+      "patterns": [
+        "how do I know if I'm eligible for a loan",
+        "loan eligibility",
+        "am I qualified for a loan",
+        "loan requirements"
+      ],
+      "response": [
+        "Loan eligibility depends on several factors including income, credit history, and the type of loan. You can check your eligibility on our website or by visiting any branch."
+      ]
+    },
+    {
+      "tags": "ATMLocations",
+      "patterns": ["where can I find an ATM", "nearest ATM", "ATM locations"],
+      "response": [
+        "You can locate the nearest Zenith Bank ATM by using the ATM locator feature on our website or mobile app."
+      ]
+    }
+  ]
+}

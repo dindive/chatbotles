@@ -1,0 +1,8 @@
+/* style.css (Optional for extra tweaks) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d1d5db; /* Tailwind gray-300 */
+  border-radius: 10px;
+}

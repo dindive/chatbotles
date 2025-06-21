@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zenith Bank Chatbot</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon (Optional) -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/3/3d/Zenith_Bank_logo.png">
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="w-full max-w-md bg-white shadow-xl rounded-lg overflow-hidden flex flex-col">
+
+            <!-- Header -->
+            <div class="bg-red-700 text-white text-lg font-bold px-4 py-3 flex items-center space-x-3">
+                <img src="zenith.png" alt="Z" class="w-8 h-8 rounded-full">
+                <span>Zenith Bank Chat Support</span>
+            </div>
+
+            <!-- Chat Window -->
+            <div id="chatbox" class="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50">
+                <!-- Messages appear here dynamically -->
+            </div>
+
+            <!-- Input Section -->
+            <div class="bg-white border-t border-gray-200 px-4 py-3 flex">
+                <input type="text" id="userInput" placeholder="Ask me anything..."
+                    class="flex-1 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    onkeypress="handleKeyPress(event)">
+                <button onclick="sendMessage()"
+                    class="ml-3 px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition">Send</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
