@@ -10,7 +10,9 @@
         "good evening",
         "greetings"
       ],
-      "response": ["Hello! Welcome to Zenith Bank. How can I assist you today?"]
+      "response": [
+        "Hello! Welcome to Zenith Bank i am Adeyemi. How can I assist you today?"
+      ]
     },
     {
       "tags": "accountOpening",
